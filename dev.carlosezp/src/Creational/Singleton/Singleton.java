@@ -16,7 +16,7 @@ public class Singleton {
                     instance = new Singleton("Yours system configs!");
             }
         }
-        return instance;
+        return result;
     }
 
     public String getSystemConfigs(){
